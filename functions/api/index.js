@@ -1,4 +1,9 @@
+export async function onRequest({ request }) {
+
+  return new Response(`GET request received at ${request.url}`);
+}
+
 export async function onRequestPost({ request }) {
-  // ...
-  return new Response(`Hello world`);
+
+  return new Response(`POST request received at ${request.url}`);
 }

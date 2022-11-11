@@ -1,4 +1,4 @@
-export async function onRequest({ request }) {
+export async function onRequestGet({ request }) {
 
   return new Response(`GET request received at ${request.url}`);
 }

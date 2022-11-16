@@ -1,4 +1,3 @@
 {
-  "recommendations": ["svelte.svelte-vscode"],
-  "editor.tabSize": 2,
+  "recommendations": ["svelte.svelte-vscode"]
 }

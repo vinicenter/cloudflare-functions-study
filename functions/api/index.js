@@ -1,4 +1,6 @@
 export async function onRequestGet({ request }) {
+  console.log(request);
+
   return new Response(`GET request received at ${request.url}`);
 }
 

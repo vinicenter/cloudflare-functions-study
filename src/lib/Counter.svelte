@@ -1,10 +1,18 @@
 <script>
-  let count = 0
+  let poxa = 0
+
+  $: poxa2 = poxa
+
+  const count = {
+    p: {
+      x: 0
+    }
+  }
   const increment = () => {
-    count += 1
+    poxa += 1
   }
 </script>
 
 <button on:click={increment}>
-  count is {count}
+   {poxa2}
 </button>
